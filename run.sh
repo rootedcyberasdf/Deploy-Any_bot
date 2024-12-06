@@ -4,9 +4,8 @@ command -v $1 || apt install $1 -y
 c figlet
 c toilet
 c cowsay
-c python3-pip
-c python-pip
-pip3 install lolcat
+c ruby
+gem install lolcat
 clear
 Happy () {
 	figlet Happy New|lolcat
