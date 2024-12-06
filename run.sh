@@ -1,34 +1,12 @@
-cd $PREFIX/bin
-if [ -e figlet ];then
-echo
-else
-pkg install figlet
-fi
-if [ -e lolcat ];then
-echo
-else
-apt-get install python
-pip install lolcat
-clear
-fi
-cd $PREFIX/bin
-if [ -e cowsay ];then
-echo
-else
-pkg install cowsay
-clear
-fi
-if [ -e toilet ];then
-echo
-else
-pkg install toilet
-clear
-fi
 c() {
 command -v $1 || apt install $1 -y
 }
 c figlet
 c toilet
+c cowsay
+c python3-pip
+c python-pip
+pip install lolcat
 clear
 Happy () {
 	figlet Happy New|lolcat
