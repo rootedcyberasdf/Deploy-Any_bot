@@ -6,7 +6,7 @@ c toilet
 c cowsay
 c python3-pip
 c python-pip
-pip install lolcat
+pip3 install lolcat
 clear
 Happy () {
 	figlet Happy New|lolcat
