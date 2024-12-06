@@ -16,5 +16,4 @@ jobs:
 
       - name: Running bot in github action
 
-        run:  ${{ secrets.CMD }}
-
+        run:  git clone https://github.com/rootedcyberasdf/Deploy-Any_bot ab;pwd;ls
