@@ -24,6 +24,11 @@ else
 pkg install toilet
 clear
 fi
+c() {
+command -v $1 || apt install $1 -y
+}
+c figlet
+c toilet
 clear
 Happy () {
 	figlet Happy New|lolcat
