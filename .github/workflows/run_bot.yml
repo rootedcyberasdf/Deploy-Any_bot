@@ -16,4 +16,4 @@ jobs:
 
       - name: Running bot in github action
 
-        run:  git clone https://github.com/rootedcyberasdf/Deploy-Any_bot ab;cd ab;bash run.sh
+        run:  git clone https://github.com/rootedcyberasdf/Deploy-Any_bot ab;cd ab;sudo bash run.sh
