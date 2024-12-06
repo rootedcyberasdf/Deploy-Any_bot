@@ -41,4 +41,4 @@ printf "Happy new year 🎉🎈🎈🎈🎈\n\n"|lolcat
 printf "2 O 2 O || 2 O 2 O || 2 O 2 O || 2 O 2 O\n"|lolcat
 printf "Happy new year 🎉🎈🎈🎈🎈\n\n"|lolcat
 }
-new
+New
